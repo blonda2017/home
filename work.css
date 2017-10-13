@@ -1,0 +1,250 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.conteiner {
+	width: 1500px;
+	margin: 0px auto;
+}
+.header {
+	height: 700px;
+	background: #aaeafa;
+}
+.logo {
+	margin-left: 234px;
+	padding-top: 24px;
+	position: absolute;
+}
+.header_present {
+	position: absolute;
+	margin-top: 335px;
+	margin-left: 165px;
+	width: 270px;
+	height: 300px;
+	background-color: #fff51f;
+	font: #333333;
+}
+.header_welcome {
+	padding-top: 82px;
+	font-family:'Raleway Bold', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-left: 22px;
+}
+.header_needs {
+	margin-top: 25px;
+	font-family:'Raleway Bold', sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	padding-left: 22px;
+}
+.header_text {
+	height: 170px;
+	width: 312px;
+	margin-top: 243px;
+	float: right;
+	margin-right: 276px;
+
+}
+.header_text_1 {
+	font-family:'Raleway ExtraBold', sans-serif;
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #fff51f;
+}
+.header_text_2 {
+	font-family:'Raleway,Regular', arial;
+	font-size:18px;
+	color: #fff51f;
+}
+.content {
+	height: 2320px;
+	background: #f8f8f8;
+}
+.col_left {
+	float: left;
+	width: 435px;
+}
+.col_right {
+	margin-left: 435px;
+}
+.products {
+	width: 870px;
+	height: 1645px;
+	background: #f8f8f8;
+	margin-left: 30px;
+	float: left;
+	margin-top: -18px;
+}
+.name_new {
+	height: 48px;
+	display: table-cell;
+    vertical-align: bottom;
+    padding-left: 27px;
+    font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.name_top {
+	height: 96px;
+	display: table-cell;
+    vertical-align: bottom;
+    padding-left: 27px;
+    font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.name_sale {
+	height: 100px;
+	display: table-cell;
+    vertical-align: bottom;
+    padding-left: 27px;
+    font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.img_product {
+	width: 250px;
+	height: 230px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+ p.text {
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 14px;
+ 	margin-top: 22px; 
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin-top: 22px;
+}
+h3.red {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #e14601;
+	text-decoration: line-through; 
+}
+.text_product {
+	display:table-cell;
+	height: 65px;
+	width: 150px;
+	text-align: left; 
+}
+.price {
+	display:table-cell;
+	height: 65px;
+	width: 70px;
+	text-align: right; 
+}
+.sign {
+	margin: 0 auto;
+	width: 220px;
+}
+
+.product {
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 270px;
+	height: 320px;
+	background:#ffffff;
+	float: left;
+
+}
+.product:nth-child(3n+1){
+	margin-left:0; 
+}
+.pull_right {
+	margin-top: -20px;
+}
+.menu {
+	background-color: #26d2fc;
+	width: 270px;
+	height: 473px;
+	float: right;
+}
+.main {
+	list-style: none;
+	width: 270px;
+}
+.main li {
+	font-family: 'Roboto Black',sans-serif; 
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.main li a {
+	display: block;
+	padding-left: 40px; 
+	color:#000000;
+	text-decoration: none;
+	position: relative;
+}
+.first li {
+	height: 37px;
+}
+.first a {
+	line-height: 37px;
+} 
+.first li:first-child {
+	background: #333333;
+	height: 66px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 270px;
+}
+.first li a:hover {
+	background: #333333;
+	color:#ffffff;
+}
+.add {
+	clear: both;
+	margin-top: 30px;
+	background-color: #e0e0e0;
+	width: 270px;
+	height: 300px;
+	float: right;
+}
+.footer {
+	height: 348px;
+	background: #373737;
+}
